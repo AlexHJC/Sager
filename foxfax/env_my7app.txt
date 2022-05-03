@@ -1,0 +1,46 @@
+# Framework
+# ---------
+YII_DEBUG   = true
+YII_ENV     = dev
+
+# Application
+# -----------
+LINK_ASSETS=true
+
+# Databases
+# ---------
+DB_DSN           = mysql:host=localhost;port=3306;dbname=notify_licens
+DB_USERNAME      = notify_licens
+DB_PASSWORD      = FLm)D0.vKpxm1
+DB_TABLE_PREFIX  = lic_
+
+TEST_DB_DSN           = mysql:host=localhost;port=3306;dbname=notify_licens
+TEST_DB_USERNAME      = notify_licens
+TEST_DB_PASSWORD      = FLm)D0.vKpxm1
+
+# Urls
+# ----
+FRONTEND_URL    = http://notification.my7apps.com
+BACKEND_URL     = http://notification.my7apps.com/admin
+STORAGE_URL     = http://notification.my7apps.com/storage
+
+# Other
+# -----
+SMTP_HOST = localhost
+SMTP_PORT = 25
+
+FRONTEND_COOKIE_VALIDATION_KEY = sDdSQEleCeahpnBy36gOr3dn8alktInz2
+BACKEND_COOKIE_VALIDATION_KEY = EZiy-e2AbJSPzvcxYHkSBUWZps7RAYs92
+
+ADMIN_EMAIL    = salutik411@gmail.com
+ROBOT_EMAIL    = robot@rgo.md
+
+GITHUB_CLIENT_ID = your-client-id
+GITHUB_CLIENT_SECRET = your-client-secret
+
+FACEBOOK_CLIENT_ID = your-client-id
+FACEBOOK_CLIENT_SECRET = your-client-secret
+
+GLIDE_SIGN_KEY = AgHR2rPQCkbbEqcLUT9wx2T4AE1vpnup
+GLIDE_MAX_IMAGE_SIZE = 4000000
+

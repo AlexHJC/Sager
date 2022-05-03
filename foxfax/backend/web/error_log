@@ -1,0 +1,20 @@
+[07-Feb-2017 15:08:10 UTC] PHP Warning:  Uncaught exception 'yii\base\ErrorException' with message 'Undefined variable: Yii' in /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php:74
+Stack trace:
+#0 /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php(74): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/npopovici...', 74, Array)
+#1 [internal function]: backend\modules\i18n\controllers\I18nSourceMessageController->actionCreate()
+#2 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runActi in /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php on line 74
+[07-Feb-2017 15:08:10 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php on line 74
+[07-Feb-2017 15:08:56 UTC] PHP Warning:  Uncaught exception 'yii\base\ErrorException' with message 'Undefined variable: Yii' in /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php:74
+Stack trace:
+#0 /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php(74): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/npopovici...', 74, Array)
+#1 [internal function]: backend\modules\i18n\controllers\I18nSourceMessageController->actionCreate()
+#2 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /home/npopovici/public_html/notification/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runActi in /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php on line 74
+[07-Feb-2017 15:08:56 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/npopovici/public_html/notification/backend/modules/i18n/controllers/I18nSourceMessageController.php on line 74
+[30-Jan-2018 00:27:05 UTC] PHP Warning:  require(/home/sevenapp/public_html/cert/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/sevenapp/public_html/cert/vendor/composer/autoload_real.php on line 66
+[30-Jan-2018 00:27:05 UTC] PHP Fatal error:  require(): Failed opening required '/home/sevenapp/public_html/cert/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/sevenapp/public_html/cert/vendor/composer/autoload_real.php on line 66

@@ -1,0 +1,175 @@
+.clear{
+	
+}
+.l_style1{
+    font-size: 7px;
+    display: inline-block;
+}
+
+.colorbox_label {
+    border: 1px solid #ddd;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px !important;
+    padding: 2px !important;
+}
+.btn01{
+	padding:0px 12px;
+	color:#fff;
+}
+.widget01{
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+.p10{
+	padding: 10px
+}
+.add_new{
+	 font-size: 16px;
+	 margin-left: 15px;
+}
+
+.table .glyphicon-eye-open{
+	color: #555;
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.table .glyphicon-eye-open:before{
+	content: "\f06e";
+}
+.table .glyphicon-pencil{
+	color: #555;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.table .glyphicon-pencil:before{
+	content: "\f044";
+}
+.table .glyphicon-trash{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	color: #e74c3c !important;
+}
+.table .glyphicon-trash:before{
+	content: "\f014";
+}
+.table .glyphicon-send{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #45ce26 !important;
+}
+.table .glyphicon-send:before{
+    content: "\f1d9";
+}
+.table tr td:last-child .glyphicon{
+    margin: 2px;
+}
+.atach_sp button{
+    padding: 3px 10px;
+}
+.attach_sp{
+    padding-bottom: 35px;
+}
+.error_text{
+    color:#f74949;
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 10px;
+}
+/* style for radio buttons for subscription page */
+.payment-period.active {
+    background: #A6D395;
+}
+.payment-period {
+    width: 130px;
+    padding: 10px;
+    position: relative;
+}
+.payment-period-word {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 22px;
+}
+.radio-dot:before, .radio-dot:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #fff;
+    border-radius: 100%;
+}
+.radio-dot:before {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    top: 10px;
+    left: 16px;
+}
+.radio-dot:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    top: 14px;
+    left: 20px;
+}
+.payment-period.active .payment-period-word {
+    color: #fff;
+}
+.payment-period.active .radio-dot:after {
+    background: #A6D395;
+}
+.payment-period.active .radio-dot:before {
+    background: #fff;
+    border-color: #A6D395;
+}
+.payment-period:hover .radio-dot:before {
+    border-color: #adadad;
+}
+.payment-period.active:hover .radio-dot:before {
+    border-color: #A6D395;
+}
+.payment-period.active .radio-dot:after {
+    background: #A6D395;
+}
+.payment-period:hover .radio-dot:after {
+    background: #e6e6e6;
+}
+.payment-period.active:hover .radio-dot:after {
+    background: #A6D395;
+}
+@media (max-width: 400px) {
+    .mobile-br {
+        display: none;
+    }
+    .payment-period {
+        width: 49%;
+        padding: 10px;
+        position: relative;
+    }
+}
+.btn-paypal {
+    background: #039ddd;
+    color: #fff;
+    padding: 10px 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-paypal:hover {
+    color: #ffffff;
+}
