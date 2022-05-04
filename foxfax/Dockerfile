@@ -41,8 +41,14 @@ RUN npm install -g uglifyjs yuicompressor
 # Install composer && global asset plugin
 ENV COMPOSER_HOME /root/.composer
 ENV PATH /root/.composer/vendor/bin:$PATH
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
-    /usr/local/bin/composer global require "fxp/composer-asset-plugin"
+
+RUN php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=/usr/local/bin --filename=composer \
+&& composer global require --no-progress "fxp/composer-asset-plugin:~1.2" \
+&& apk del tzdata \
+&& rm -rf /var/cache/apk/*
+
+# RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
+#     /usr/local/bin/composer global require "fxp/composer-asset-plugin"
 
 COPY . /app
 RUN chown www-data:www-data -R /app
