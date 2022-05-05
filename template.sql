@@ -1,3 +1,12 @@
+--
+-- Database: `sager`
+--
+
+-- --------------------------------------------------------
+
+CREATE DATABASE IF NOT EXISTS `sager`;
+USE `sager`;
+
 CREATE TABLE `lic_alerts` (
   `id` int(11) NOT NULL,
   `title_en` varchar(255) DEFAULT NULL,
@@ -148,12 +157,6 @@ CREATE TABLE `lic_i18n_message` (
   `translation` text COLLATE utf8_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-CREATE TABLE `lic_i18n_message` (
-  `id` int(11) NOT NULL,
-  `language` varchar(16) COLLATE utf8_unicode_ci NOT NULL,
-  `translation` text COLLATE utf8_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
 CREATE TABLE `lic_key_storage_item` (
   `key` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
   `value` text COLLATE utf8_unicode_ci NOT NULL,
@@ -253,17 +256,6 @@ CREATE TABLE `lic_plan` (
   `plan_doc_limit` int(11) DEFAULT NULL,
   `plan_user_limit` int(11) DEFAULT NULL,
   `is_default` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-CREATE TABLE `lic_products` (
-  `id` int(11) NOT NULL,
-  `account_id` int(11) NOT NULL,
-  `cod` varchar(255) DEFAULT NULL,
-  `title_en` varchar(255) DEFAULT NULL,
-  `title_fr` varchar(255) DEFAULT NULL,
-  `company_id` int(11) DEFAULT NULL,
-  `certificat_id` int(11) DEFAULT NULL,
-  `lot` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `lic_products` (
