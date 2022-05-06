@@ -1,0 +1,9 @@
+ToDo:
+
+setup aws mysql server and link front end with new mysql server
+import data into mysql server
+setup new tables and fields in sql database for the new desired data
+update frontend to show desired input fields
+update sql database to fix data not being user defined
+fix bugs in frontend
+
